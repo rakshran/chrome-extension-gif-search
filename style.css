@@ -1,0 +1,96 @@
+h2 {
+    text-align: center;
+}
+
+
+body {
+
+    width: 300px;
+    background-color: black;
+    color: yellow;
+    font-family: interface, "Helvetica Neue", helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+input:focus, textarea:focus, button:focus{
+    outline: none;
+}
+
+
+#searchBarNButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+input {
+    width: 225px;
+    border-radius: 12px;
+    border: none;
+    padding-left: 10px;
+}
+
+button {
+    background-color:greenyellow;
+    width: 50px;
+    height: 30px;
+    align-self: center;
+    border: none;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+
+button:hover{
+
+    background-color: blanchedalmond;
+}
+
+#gif iframe{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    border: 0px;
+}
+
+#showMeSomethingElse{
+    color: white;
+}
+
+#showMeSomethingElse button{
+    background-color: aquamarine;
+    width: 200px;
+    height: 30px;
+    align-self: center;
+    border: none;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+   
+}
+
+#showMeSomethingElse button:hover{
+
+    background-color: magenta;
+}
+
+#copyLink button {
+    background-color:coral;
+    width: 100px;
+    height: 30px;
+    align-self: center;
+    border: none;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+
+#copyLink button:hover{
+
+    background-color: darkviolet;
+}
+
+
+
+
