@@ -1,2 +1,4 @@
 # chrome-extension-gif-search
-Using the GIPHY API for fetching GIFs pertaining to a search query
+Built a fun Chrome Extension using the GIPHY API for searching GIFs and sharing links.
+
+Try here - [TrenGIF](https://chrome.google.com/webstore/detail/trengif/lanoomklcebdbcoohcnpakhbaagabgdi?hl=en)
